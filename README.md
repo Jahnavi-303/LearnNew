@@ -1,2 +1,2 @@
-# LearnNew
+# MyRepo
 Documentation on my learnings
