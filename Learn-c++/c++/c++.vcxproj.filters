@@ -18,5 +18,8 @@
     <ClCompile Include="Operator_overloading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="subscript_operator-overloading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
