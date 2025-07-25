@@ -127,8 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Inheritence_practice1.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Operator_overloading.cpp" />
-    <ClCompile Include="subscript_operator-overloading.cpp" />
+    <ClCompile Include="subscript_operator_overloading.cpp" />
+    <ClCompile Include="Virtual_func.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inheritence_practice1.h" />
+    <ClInclude Include="Operator_overloading.h" />
+    <ClInclude Include="subscript_operator_overloading.h" />
+    <ClInclude Include="virtual_func.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
