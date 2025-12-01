@@ -1,0 +1,18 @@
+#cmake required VERSION
+cmake_minimum_required(VERSION 3.10)
+project(testFolder)
+set(CMAKE_CXX_STANDARD 17)
+
+
+#include directories
+include_directories(src/includes)
+
+#include source files
+set(SOURCES 
+    src/main.cpp
+    src/Copy_Assignment_operator.cpp
+    src/Copy_Constructor.cpp
+)
+
+#executables
+add_executable(add_source ${SOURCES})
